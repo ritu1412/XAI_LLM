@@ -2,19 +2,6 @@
 
 This repository contains resources for visualizing embeddings and exploring explainable AI (XAI) prompting methods. The project leverages various dimensionality reduction techniques to visualize embedding spaces and applies XAI techniques to analyze the key components of prompts. 
 
-## Folder Structure
-
-├── data                        # Folder for data file in tsv
-├── embeddings                  # Contains embedding visualizations
-│   ├── pca.tsv                 # Embeddings reduced with PCA
-│   ├── tsne.tsv                # Embeddings reduced with t-SNE
-│   └── umap.tsv                # Embeddings reduced with UMAP
-├── requirements.txt            # Required libraries
-├── notebooks                   # Jupyter notebooks for analysis
-│   ├── embedding_visualisation.ipynb  # Notebook for embedding visualization
-│   └── xai_prompting.ipynb     # Notebook for XAI prompting analysis
-└── README.md                   # Project documentation
-
 ## Project Overview
 
 This project is split into two main areas:
